@@ -112,13 +112,14 @@ public class Lutadores {
     }
 
     public void apresentar() {
-        System.out.println("Senhoras e senhores... CHEGOU O TÃO AGUARDADO MOMENTO! Apresentamos o lutador: " + this.getNome());
+        System.out.println("Senhoras e senhores... CHEGOU O TÃO AGUARDADO MOMENTO!\n"
+                + "Apresentamos o lutador: " + this.getNome());
         System.out.println("Diretamente de: " + this.getNacionalidade());
-        System.out.println("com " + this.getIdade() + " anos e " + this.getAltura() + " m de altura");
+        System.out.print("com " + this.getIdade() + " anos e " + this.getAltura() + "m de altura ");
         System.out.println("pesando " + this.getPeso() + "Kg");
-        System.out.println("Carregando contigo : " + this.getVitorias() + " Vitórias");
-        System.out.println(this.getDerrotas() + " Derrotas e");
-        System.out.println(this.getEmpates() + "Empates!");
+        System.out.print("Carregando contigo : " + this.getVitorias() + " Vitórias ");
+        System.out.print(this.getDerrotas() + " Derrotas e ");
+        System.out.println(this.getEmpates() + " Empates!");
     }
 
     public void status() {
@@ -126,6 +127,7 @@ public class Lutadores {
         System.out.println("Ganhou: " + this.getVitorias() + " vezes");
         System.out.println("Perdeu: " + this.getDerrotas() + " vezes");
         System.out.println("Empatou: " + this.getEmpates() + " vezes");
+        System.out.println("");
     }
 
     public void ganharLuta() {
