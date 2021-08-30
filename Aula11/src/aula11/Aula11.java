@@ -20,14 +20,16 @@ public class Aula11 {
         Professor p1 = new Professor();
         Bolsista b1 = new Bolsista();
         Tecnico t1 =  new Tecnico();
-        p1.setNome("Maria");
         
-        a1.setNome("Cláudio");
+        
+        
+        
         
         v1.setNome("Juvenal");
         v1.setIdade(38);
         v1.setSexo("M");
         
+        a1.setNome("Cláudio");
         a1.setIdade(18);
         a1.setMatr(1111);
         a1.setSexo("M");
@@ -39,7 +41,7 @@ public class Aula11 {
         b1.setSexo("M");
         b1.pagarMensal();
         
-        
+        p1.setNome("Maria");
         p1.setSalario(2500.75f);
         
         
